@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="npc.css">
+</head>
+<body style="background-image: url(farmer-background-image-by-kenny-vo.avif);">
+
+<h1 style="text-align: center;">Pick an NPC from the list and click Submit to get a short description about the npc</h1>
+
+
+    <div>
+<label for="" id="npc">
+<select name="Adventurer Npcs" id="ADVnpcs">
+
+<option value="Blank">Adventurers</option>
+<option value="Sarah">Sarah</option>
+<option value="Mel">Mel</option>
+<option value="Ezreal">Ezreal</option>
+<option value="Faris">Faris</option>
+<option value="Eyren Seit">Eyren Seit</option>
+<option value="Zuo Bai">Zuo Bai</option>
+<option value="Youmu">Youmu Konpaku</option>
+
+</select>
+
+<select name="Shopkeepers" id="Shop">
+<option value="Blank">Shopkeepers</option>
+<option value="yi">Master yi</option>
+<option value="Marisa">Marisa Kirisame</option>
+<option value="Warden">Eldritch Merchant</option>
+<option value=""></option>
+<option value=""></option>
+
+</select>
+
+<select name="Enemies" id="Foe">
+    <option value="Blank">Foe</option>
+    <option value="Perseu">Perseu</option>
+    <option value="Cgolem">Crystal Golem</option>
+    <option value="Amalgam">Perfect Amalgam</option>
+    <option value="MoonGuy">Lunar Cultist</option>
+    <option value=""></option>
+</select>
+
+<select name="Deities" id="Gods">
+<option value="Blank">Deities</option>
+<option value="VelKoz">Vel'Koz</option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+
+</select>
+
+<select name="others" id="Others">
+<option value="Blank">Others</option>
+<option value="AnnaPrincess">Anna(Princess)</option>
+<option value="AnnaBlood">Anna(Elven Killer)</option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+
+</select>
+</label>
+
+<br>
+<br>
+
+<button id="submitAdventurer">submit adventurer</button>
+<button id="SubmitShop">Submit Shop</button>
+<button id="SubmitFoe">Submit Foe</button>
+<button id="SubmitDeity">Submit Deity</button>
+<button id="SubmitOther">Submit Other</button>
+</div>
+
+
+<h2>Adventurers:</h2>
+<div id="AdventurerResult"></div>
+<H2>Shopkeepers:</H2>
+<div id="ShopResult"></div>
+<h2>Foes/Enemies</h2>
+<div id="FoeResult"></div>
+<H2>Deities/Planar</H2>
+<div id="DeityResult"></div>
+<H2>Other NPCs</H2>
+<div id="OtherResult"></div>
+
+<p class="Homepage" ><a href="index.html"> <img src="homepage.png" alt=""><br> <span>Go Back</span></a></p>
+
+<script src="index.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+
+.npcs{
+font-size:large ;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+.TxT{
+    font-size: larger;
+
+margin-left: 20px;
+    margin-right: 50px;
+}
+
+
+
+.Homepage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+}
+
+
+
+div{
+    text-align: center;
+    align-items: center;
+
+}
+p{
+    margin: auto;
+
+}
+span{
+    color:crimson  ;
+    font-size: larger;
+}
